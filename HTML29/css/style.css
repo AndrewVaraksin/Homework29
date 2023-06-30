@@ -1,0 +1,17 @@
+body{
+  background-color: grey;
+  padding: 50px;
+}
+.grid{
+  background-color: gray;
+  text-align: center;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr minmax(100px, 200px) 1fr 1fr;
+  grid-gap: 10px;
+
+}
+.grid__item{
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 2rem;
+}
